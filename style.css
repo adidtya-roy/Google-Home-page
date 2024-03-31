@@ -1,0 +1,116 @@
+/*img size*/
+#i112{
+    width: 30px;
+    height: 30px;
+}
+#i115{
+    width: 30px;
+    height: 30px;
+}
+#i114{
+     width: 18px;
+     height: 18px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    text-align: center;
+}
+
+/*styleing header bir*/
+section .head__1 .top_sec{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+    padding-right: 30px;
+    padding-top: 30px;
+ 
+}
+section .head__1 div a{
+    color: rgb(136, 131, 131);
+    text-decoration: none;
+    padding: 15px;  
+}
+section .head__1 div a:hover{
+    text-decoration: underline;
+    color: black;
+}
+section .head__1 .top_sec button{
+   background-color: lightblue;
+   height: 35px;
+   width: 85px;
+   border-radius: 9px;
+}
+
+/*styleing wibpage midile site*/
+section main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+section main .midel .m1in input{
+    width: 500px;
+    height: 40px;
+    border: 2px rgb(136, 131, 131) solid;
+    border-radius: 50px;
+    padding-left: 50px;
+}
+section main .input .img{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 500px;
+    height: 40px;
+    bottom: 33px;
+    right: -8px;
+}
+section main .midel button{
+     width: 160px;
+     height: 40px;
+     border-radius: 8px;     
+}
+section main .midel button:hover{
+    border: 3px solid rgb(66, 61, 61);    
+}
+section main .midel .bd a{
+    text-decoration: none;
+}
+section main .midel .bd a:hover{
+    text-decoration: underline;
+}
+/*footer design*/
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgb(247, 247, 247);
+}
+footer .ul{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(223, 220, 220);
+    padding: 10px;
+
+}
+footer .ul ul{
+    display: flex;
+}
+footer .ul ul li {
+    list-style: none;  
+}
+footer .ul ul li a{
+   text-decoration: none;
+   color: rgb(136, 131, 131);
+   margin: 25px;
+}
+footer .ul ul li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+ }
