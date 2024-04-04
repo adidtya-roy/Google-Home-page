@@ -44,7 +44,7 @@ section .head__1 .top_sec button{
 }
 
 /*styleing wibpage midile site*/
-section main {
+section main{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -90,14 +90,13 @@ footer{
     bottom: 0;
     left: 0;
     position: absolute;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247); 
 }
 footer .ul{
     display: flex;
     justify-content: space-between;
     border: 1px solid rgb(223, 220, 220);
     padding: 10px;
-
 }
 footer .ul ul{
     display: flex;
@@ -114,3 +113,47 @@ footer .ul ul li a:hover{
     text-decoration: underline;
     color: rgb(0, 0, 0);
  }
+/*mobile view*/
+@media (max-width:768px){
+    section .head__1 .top_sec{
+        display: flex;
+        justify-content: right;
+    }
+    #i113{
+        width: 60%;
+    }
+    section main{
+       width: 80%; 
+       display: flex;
+       justify-content: center;  
+       transform: translate(20px , 50px); 
+    }
+    section main .midel .m1in input{
+       width: 90%;
+       transform: translate(0px , -22px); 
+    }
+    section main .input .img{
+       width: 90%;
+       transform: translate(0px , -22px); 
+    }
+    section main .midel button{
+        width: 120px;
+        transform: translate(20px , -45px); 
+    }  
+    section main .midel .bd {
+        transform: translate(20px , -45px);  
+    }
+    footer .ul ul{
+        display: block;
+        padding: 0;
+        text-align: left;
+    }  
+}
+/*desktop view*/
+@media (min-width:1024px){
+
+}
+/*teblet view*/
+@media (min-width:769px) and (max-width:1023px){    
+
+}
